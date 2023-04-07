@@ -1,13 +1,20 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    height: 10vh;
     background-color: white;
     display: flex;
     align-items: end;
     justify-content: space-evenly;
-    padding-bottom: 0.5rem;
+}
+header nav{
+    margin-bottom: 0.5rem;
+}
+header img{
+    margin-bottom: 0.5rem;
 }
 header nav a{
     text-decoration: none;
@@ -15,8 +22,142 @@ header nav a{
     margin-left: 2rem;
 }
 .intro{
-    background-image: linear-gradient(to top rigth, #c94970, #f53a50, #fc697b);
+    background: linear-gradient(to top right, #c94970, #fc697b);
+    height: 90vh;
     display: flex;
-    flex-direction: column;
-    
+    align-items: center;
+    justify-content: left;
 }
+.intro div{
+    width: 25%;
+    margin-left: 14rem;
+    position: absolute;
+    z-index: 2;
+}
+.intro img{
+    width: 65rem;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+}
+.intro div h1{
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+    color: white;
+}
+.intro div p{
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.intro div button{
+    background-color: white;
+    color: #f53a50;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+.product{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+.product h2{
+    color: #f53a50;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+
+}
+.product_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.product_1 div{
+    width: 20%;
+}
+.product_1 div p{
+    line-height: 1.8rem;
+    font-size: 16px;
+}
+.product_1 div img{
+    width: 250px;
+    border-width: 1px;
+    box-shadow: 0 0 10px rgba(189, 70, 70, 0.6);
+    border-style: none;
+    border-radius: 8px;
+}
+.product_1 div h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #F53A50;
+    font-size: 22px;
+}
+.product_1 div button{
+    margin-top: 1rem;
+    background-color: #f53a50;
+    color: white;
+    font-size: 1rem;
+    padding: 0.7rem 2.5rem;
+    border: none;
+    border-radius: 8px;
+}
+.Ebooks{
+    background: linear-gradient(to top right, #c94970, #f53a50, #fc697b);
+}
+.Ebooks_1{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Ebooks_1 h2{
+    color: white;
+    font-size: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+}
+.Ebooks_1 p{
+    color: white;
+    margin-bottom: 5px;
+}
+.Ebooks_1 button{
+    color: #F53A50;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 10px;
+    margin-top: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+.Ebooks_2 div{
+    height:60vh;
+}
+.Ebooks_2 div video{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    object-fit: cover;
+}
+.Ebooks_2 div h1{
+    width: 30%;
+    line-height: 7rem;
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    right: 15rem;
+    margin-top: 8rem;
+}
+
