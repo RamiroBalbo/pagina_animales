@@ -291,3 +291,32 @@ header nav a{
 .unique-products_22 span{
     color: #f53a50;
 }
+.warranty-claims{
+    background: linear-gradient(to top right, #c94970, #f53a50, #fc697b);
+}
+.warranty-claims_1{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.warranty-claims_1 h2{
+    color: white;
+    font-size: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+.warranty-claims_1 p{
+    color: white;
+    margin-bottom: 5px;
+}
+.warranty-claims_1 button{
+    color: #F53A50;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
