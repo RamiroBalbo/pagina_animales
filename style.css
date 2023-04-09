@@ -258,3 +258,36 @@ header nav a{
     line-height: 1.8rem;
     font-size: 16px;
 }
+.unique-products{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unique-products_1{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+}
+.unique-products_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.unique-products_2 div{
+    width: 51%;
+}
+.unique-products_21 h2{
+    color: #f53a50;
+    font-size: 3rem;
+}
+.unique-products_22 p{
+    margin: 2rem 0;
+    line-height: 1.6rem;
+}
+.unique-products_22 span{
+    color: #f53a50;
+}
