@@ -59,6 +59,13 @@ header nav a{
     padding: 1rem;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+.intro div button:hover {
+    color: white !important;
+    background-color: transparent;
+    border: white solid 1px;
+    transition: all 0.2s ease;
 }
 .product{
     height: 100vh;
@@ -109,6 +116,7 @@ header nav a{
     padding: 0.7rem 2.5rem;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .Ebooks{
     background: linear-gradient(to top right, #c94970, #f53a50, #fc697b);
@@ -138,6 +146,13 @@ header nav a{
     padding: 15px 10px;
     margin-top: 1.2rem;
     margin-bottom: 2.5rem;
+    cursor: pointer;
+}
+.Ebooks_1 button:hover {
+    color: white !important;
+    background-color: transparent;
+    border: white solid 1px;
+    transition: all 0.2s ease;
 }
 .Ebooks_2 div{
     height:60vh;
@@ -320,6 +335,12 @@ header nav a{
     font-size: 1rem;
     margin-top: 2rem;
 }
+.warranty-claims_1 button:hover{
+    color: white !important;
+    background-color: transparent;
+    border: white solid 1px;
+    transition: all 0.2s ease;
+}
 .contact{
     height: 100vh;
     display: flex;
@@ -356,7 +377,6 @@ header nav a{
     margin-bottom: 2rem;
 }
 .input_1{
-    box-shadow: 0 0 10px rgba(189, 70, 70, 0.6);
     width: 100%;
     border: none;
     border-radius: 8px;
@@ -364,6 +384,7 @@ header nav a{
     margin: 0.5rem 0;
     padding: 0 0.5rem;
     transition: all 1s ease;
+    border: solid rgba(189, 70, 70, 0.6) 1px;
 }
 .form_2 div{
     display: flex;
@@ -373,7 +394,6 @@ header nav a{
     width: 100%;
 }
 .input_2{
-    box-shadow: 0 0 10px rgba(189, 70, 70, 0.6);
     width: 100%;
     border: none;
     border-radius: 8px;
@@ -381,22 +401,34 @@ header nav a{
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     padding: 0 0.5rem;
+    border: solid rgba(189, 70, 70, 0.6) 1px;
 }
 .input_3{
-    box-shadow: 0 0 10px rgba(189, 70, 70, 0.6);
     width: 100%;
     padding: 0.5rem 0 20vh 0.5rem;
     border: none;
     border-radius: 8px;
     margin-top: 0.5rem;
+    border: solid rgba(189, 70, 70, 0.6) 1px;
+}
+input:hover{
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 10px rgba(189, 70, 70, 0.6);
+    transition: all 0.2s ease;
 }
 .contact button{
     padding: 0.8rem 5rem;
     border-radius: 8px;
-    color: white;
+    color: rgba(255, 255, 255, 0.996);
     font-size: 1rem;
     border: none;
     background-color: #F53A50;
+    cursor: pointer;
+}
+.contact button:hover{
+    padding: 1rem 6rem;
+    box-shadow: 0 0 10px rgba(189, 70, 70, 0.6);
+    transition: all 0.5s ease;
 }
 footer{
     background: linear-gradient(to top right, #c94970, #f53a50, #fc697b);
