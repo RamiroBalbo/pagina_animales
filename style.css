@@ -118,6 +118,12 @@ header nav a{
     border-radius: 8px;
     cursor: pointer;
 }
+.product_1 div button:hover{
+    background-color: transparent;
+    color: #f53a50;
+    border: solid #f53a50 1px;
+    transition: all 0.5s ease;
+}
 .Ebooks{
     background: linear-gradient(to top right, #c94970, #f53a50, #fc697b);
 }
